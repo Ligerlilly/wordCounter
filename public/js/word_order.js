@@ -41,7 +41,7 @@ var wordOrder = function (phrase) {
   for (var i = 0; i < sortable.length; i++) {
     formattedWords.push(sortable[i][0] +  ': ' + sortable[i][1]);
   }
-  console.log(foundWords);
+  console.log(formattedWords);
   return formattedWords;
 };
 
